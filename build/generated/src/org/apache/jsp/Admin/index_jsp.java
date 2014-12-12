@@ -1,0 +1,275 @@
+package org.apache.jsp.Admin;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.Vector _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public Object getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n");
+      out.write("\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n");
+      out.write("<html xmlns=\"http://www.w3.org/1999/xhtml\">\n");
+      out.write("<head>\n");
+      out.write("\t<title>aws</title>\n");
+      out.write("\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n");
+      out.write("\t<meta name=\"keywords\" content=\"f1, WOW Slider, 3d Image Carousel, Infinite Carousel jQuery\" />\n");
+      out.write("\t<meta name=\"description\" content=\"f1 created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow\" />\n");
+      out.write("\t<!-- Start WOWSlider.com HEAD section -->\n");
+      out.write("\t<link rel=\"stylesheet\" type=\"text/css\" href=\"engine1/style.css\" media=\"screen\" />\n");
+      out.write("\t<style type=\"text/css\">a#vlb{display:none}</style>\n");
+      out.write("\t<script type=\"text/javascript\" src=\"engine1/jquery.js\"></script>\n");
+      out.write("\t<!-- End WOWSlider.com HEAD section -->\n");
+      out.write("</head>\n");
+      out.write("    <table border=\"0\">\n");
+      out.write("            <tr>\n");
+      out.write("                <td> <input type=\"image\" src=\"./Images/sac.JPG\"/>\n");
+      out.write("                </td>\n");
+      out.write("            </tr>\n");
+      out.write("        \n");
+      out.write("        <tr>\n");
+      out.write("            <td>\n");
+      out.write("               <marquee direction=\"right\" behavior=\"alternate\" scrolldelay=\"5\">\n");
+      out.write("                  <font style=\"color: #1b75bb; font-family: Verdana, Arial, Helvetica, sans-serif;\">\n");
+      out.write("                      <B>\n");
+      out.write("                          For Daily Weather Data\n");
+      out.write("                  </marquee>\n");
+      out.write("            </td>\n");
+      out.write("           </tr>\n");
+      out.write("        </table>\n");
+      out.write("<body style=\"background-color:#d7d7d7\">\n");
+      out.write("    <table border=\"0\">\n");
+      out.write("        <tr>\n");
+      out.write("            </tr>\n");
+      out.write("        <tr>\n");
+      out.write("            <td>\n");
+      out.write("                <marquee direction=\"up\">\n");
+      out.write("                 \n");
+      out.write("      \n");
+      out.write("                    <font style=\"color: #1b75bb; font-family: Verdana, Arial, Helvetica, sans-serif;\">\n");
+      out.write("                      <h1>India Meteorological Department</h1>\n");
+      out.write("                          <p>IMD is the nodal agency in India to provide \n");
+      out.write("                              weather data for the country.</p>\n");
+      out.write("                          <p>It gives data regarding temperature,rainfall,\n");
+      out.write("                              windspeed,sunshine etc.</p>\n");
+      out.write("                          <p>The raw weather data obtained from manned and\n");
+      out.write("                              Automatic Weather Station(AWS).</p>\n");
+      out.write("                      \n");
+      out.write("               <td>\n");
+      out.write("                   </td>\n");
+      out.write("                \n");
+      out.write("            </td>\n");
+      out.write("              \n");
+      out.write("            <td>\n");
+      out.write("\t<!-- Start WOWSlider.com BODY section -->\n");
+      out.write("\t<div id=\"wowslider-container1\">\n");
+      out.write("\t<div class=\"ws_images\">\n");
+      out.write("<a href=\"\"><img src=\"data1/images/slideshow_1.jpg\" alt=\"slideshow_1\"  id=\"wows0\"/></a>\n");
+      out.write("<a href=\"\"><img src=\"data1/images/slideshow_2.jpg\" alt=\"slideshow_2\"  id=\"wows1\"/></a>\n");
+      out.write("<a href=\"\"><img src=\"data1/images/slideshow_3.jpg\" alt=\"slideshow_3\"  id=\"wows2\"/></a>\n");
+      out.write("<a href=\"\"><img src=\"data1/images/slideshow_4.jpg\" alt=\"slideshow_4\"  id=\"wows3\"/></a>\n");
+      out.write("</div>\n");
+      out.write("<div class=\"ws_bullets\"><div>\n");
+      out.write("<a href=\"#wows0\" ><img src=\"data1/tooltips/slideshow_1.jpg\" alt=\"slideshow_1\"/>1</a>\n");
+      out.write("<a href=\"#wows1\" ><img src=\"data1/tooltips/slideshow_2.jpg\" alt=\"slideshow_2\"/>2</a>\n");
+      out.write("<a href=\"#wows2\" ><img src=\"data1/tooltips/slideshow_3.jpg\" alt=\"slideshow_3\"/>3</a>\n");
+      out.write("<a href=\"#wows3\" ><img src=\"data1/tooltips/slideshow_4.jpg\" alt=\"slideshow_4\"/>4</a>\n");
+      out.write("</div></div>\n");
+      out.write("\n");
+      out.write("\t</div>\n");
+      out.write("\t<script type=\"text/javascript\" src=\"engine1/script.js\"></script>\n");
+      out.write("        </td>\n");
+      out.write("            \n");
+      out.write("            </tr>\n");
+      out.write("    </table>\n");
+      out.write("    <table>\n");
+      out.write("        <tr>\n");
+      out.write("                                <td colspan=\"4\">&nbsp;</td>\n");
+      out.write("                            </tr>\n");
+      out.write("        <tr>\n");
+      out.write("            <td></td><td></td>\n");
+      out.write("            <td>\n");
+      out.write("                <input type=\"image\" src=\"./Images/l2.jpg\"/>\n");
+      out.write("                </td>\n");
+      out.write("            </tr>\n");
+      out.write("        </table>\n");
+      out.write(" \n");
+      out.write("    \n");
+      out.write("    <table>\n");
+      out.write("        <tr>\n");
+      out.write("                                <td colspan=\"4\">&nbsp;</td>\n");
+      out.write("                            </tr>\n");
+      out.write("        <tr>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("               <a href=\"index.jsp\"> <input type=\"image\" src=\"./Images/h.JPG\"/></a>\n");
+      out.write("               </td>\n");
+      out.write("            <td>\n");
+      out.write("                   </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                <a href=\"aws.jsp\"><input type=\"image\" src=\"./Images/a1.jpg\"/></a>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                <a href=\"Admin/alog.jsp\"><input type=\"image\" src=\"./Images/admin.jpg\"/></a>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("             <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                </td>\n");
+      out.write("            <td>\n");
+      out.write("                <a href=\"Aboutus.jsp\"><input type=\"image\" src=\"./Images/aboutus.jpg\"/></a>\n");
+      out.write("                </td>\n");
+      out.write("            </tr>\n");
+      out.write("        </table>\n");
+      out.write("    <table>\n");
+      out.write("        <tr>\n");
+      out.write("                                <td colspan=\"4\">&nbsp;</td>\n");
+      out.write("                            </tr>\n");
+      out.write("        <tr>\n");
+      out.write("            <td>\n");
+      out.write("                <input type=\"image\" src=\"./Images/footer.png\"/>\n");
+      out.write("                </td>\n");
+      out.write("            </tr>\n");
+      out.write("        </table>\n");
+      out.write("              \n");
+      out.write("\t<!-- End WOWSlider.com BODY section -->\n");
+      out.write("</body>\n");
+      out.write("</html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
